@@ -127,13 +127,3 @@ pricing_rules.add_rule(PricingRuleTypes::BuyOneGetOneFree.new('BR1'))
 # Fixed price of £2.00 each when buying 4+ bread
 pricing_rules.add_rule(PricingRuleTypes::BulkDiscount.new('BR1', 4, 2.00))
 ```
-
-## Built with
-
-- Ruby 3.3.6
-- RSpec for testing
-- Test-Driven Development (TDD)
-
----
-
-*Built for a technical evaluation - demonstrates clean Ruby code, good testing practices, and thoughtful architecture.*
